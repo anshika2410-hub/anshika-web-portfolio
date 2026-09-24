@@ -5,6 +5,8 @@ import luxeDesktop from "../assets/luxe-preview.png";
 import luxeMobile from "../assets/luxe-mobile.png";
 import bookstoreDesktop from "../assets/bookstore-preview.png";
 import dileepMobile from "../assets/dileep-mobile.png";
+import atulyamDesktop from "../assets/atulyam-preview.png";
+import atulyamMobile from "../assets/atulyam-mobile.png";
 
 const projects = [
   {
@@ -30,6 +32,18 @@ const projects = [
     desktopImage: bookstoreDesktop,
     mobileImage: dileepMobile,
     link: "https://dileep-book-store.vercel.app/",
+  },
+    {
+    number: "03",
+    title: "Atulyam Restaurant",
+    category: "Restaurant & Hospitality",
+    type: "Luxury Restaurant Management & Ordering Platform",
+    description:
+      "A premium restaurant platform combining an elegant customer-facing experience with menu browsing, online ordering, offers, gallery, catering, and an admin dashboard for content and order management.",
+    tags: ["React", "FastAPI", "Tailwind CSS", "REST API"],
+    desktopImage: atulyamDesktop,
+    mobileImage: atulyamMobile,
+    link: "https://atulyam-restaurant.vercel.app/",
   },
 ];
 
